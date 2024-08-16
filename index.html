@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css"
+    />
+
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    /> -->
+  </head>
+  <body>
+    <!-- <header class="header swiper">
+      <div class="swiper-wrapper">
+        <div
+          class="swiper-slide"
+          style="
+            background: url(./images/maldives.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+
+            width: 100%;
+            height: 100%;
+          "
+        ></div>
+        <div
+          class="swiper-slide"
+          style="
+            background: url(./images/bangkok.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+
+            width: 100%;
+            height: 100%;
+          "
+        ></div>
+        <div
+          class="swiper-slide"
+          style="
+            background: url(./images/egypt.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+
+            width: 100%;
+            height: 100%;
+          "
+        ></div>
+        <div
+          class="swiper-slide"
+          style="
+            background: url(./images/hawaii.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+
+            width: 100%;
+            height: 100%;
+          "
+        ></div>
+        <div
+          class="swiper-slide"
+          style="
+            background: url(./images/malaysia.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+
+            width: 100%;
+            height: 100%;
+          "
+        ></div>
+        <div class="header-content-container">
+          <div class="header-top">
+            <a href="#" class="header-logo">
+              <img src="images/logo.png" alt="Logo" />
+            </a>
+            <div class="header-info">
+              <div class="header-contacts-info">
+                <address class="header-address">
+                  <ul class="header-address-list">
+                    <li class="header-address-item">
+                      <a
+                        href="https://maps.app.goo.gl/atQZYraasGWPmFWP8"
+                        target="_blank"
+                        class="header-address-link"
+                        ><svg class="icon-address">
+                          <use
+                            href="./images/symbol-defs.svg#icon-location"
+                          ></use>
+                        </svg>
+                        г. Харьков, ул. Мироносицкая 10а</a
+                      >
+                    </li>
+                    <li class="header-address-item">
+                      <a href="tel:+380999908100" class="header-address-link">
+                        <svg class="icon-address">
+                          <use href="./images/symbol-defs.svg#icon-phone"></use>
+                        </svg>
+                        +38 (099) 990-81-00 <span>(viber, telegram)</span></a
+                      >
+                    </li>
+                  </ul>
+                </address>
+                <ul class="header-socials-list">
+                  <li class="header-socials-item">
+                    <a
+                      href="https://www.facebook.com/"
+                      aria-label="facebook"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="header-socials-link"
+                      ><svg class="icon-socials">
+                        <use
+                          href="./images/symbol-defs.svg#icon-facebook"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="header-socials-item">
+                    <a
+                      href="https://www.instagram.com/"
+                      aria-label="instagram"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="header-socials-link"
+                      ><svg class="icon-socials">
+                        <use
+                          href="./images/symbol-defs.svg#icon-instagram"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="header-navigation">
+                <ul class="header-menu">
+                  <li class="header-menu-item">
+                    <a href="#" class="header-menu-link">Главная</a>
+                  </li>
+                  <li class="header-menu-item">
+                    <a href="#" class="header-menu-link"
+                      >Туры
+                      <svg class="icon-nav">
+                        <use href="./images/symbol-defs.svg#icon-arrow"></use>
+                      </svg>
+                    </a>
+                    <ul class="subnav-list-tours">
+                      <li class="subnav-item">
+                        <a href="#" class="subnav-link">Горящие туры</a>
+                      </li>
+                      <li class="subnav-item">
+                        <a href="#" class="subnav-link">Поиск тура</a>
+                      </li>
+                      <li class="subnav-item">
+                        <a href="#" class="subnav-link">Туры по Украине</a>
+                      </li>
+                      <li class="subnav-item">
+                        <a href="#" class="subnav-link">Экскурсионные туры</a>
+                      </li>
+                      <li class="subnav-item">
+                        <a href="#" class="subnav-link">Week end туры</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="header-menu-item">
+                    <a href="#" class="header-menu-link">Страны</a>
+                  </li>
+                  <li class="header-menu-item">
+                    <a href="#" class="header-menu-link"
+                      >Услуги
+                      <svg class="icon-nav">
+                        <use href="./images/symbol-defs.svg#icon-arrow"></use>
+                      </svg>
+                    </a>
+                    <ul class="subnav-list-tours subnav-list-services">
+                      <li class="subnav-item">
+                        <a href="#" class="subnav-link">Авиабилеты</a>
+                      </li>
+                      <li class="subnav-item">
+                        <a href="#" class="subnav-link">Визовая поддержка</a>
+                      </li>
+                      <li class="subnav-item">
+                        <a href="#" class="subnav-link"
+                          >Индивидуальный трансфер</a
+                        >
+                      </li>
+                      <li class="subnav-item">
+                        <a href="#" class="subnav-link"
+                          >Подарочные сертификаты
+                        </a>
+                      </li>
+                      <li class="subnav-item">
+                        <a href="#" class="subnav-link"
+                          ><p>
+                            <br />
+                            Бронирование отелей и апартаментов<br />
+                            <br /></p
+                        ></a>
+                      </li>
+                      <li class="subnav-item">
+                        <a href="#" class="subnav-link"
+                          ><p>
+                            Как забронировать и<br />
+                            оплатить тур
+                          </p></a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="header-menu-item">
+                    <a href="#" class="header-menu-link">О компании</a>
+                  </li>
+                  <li class="header-menu-item">
+                    <a href="#" class="header-menu-link">Контакты</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          <h1 class="header-title">
+            Лучшие предложения по солнечному Египту из Харькова
+          </h1>
+          <button type="button" class="header-btn">Получить предложение</button>
+          <div class="pagination"></div>
+        </div>
+      </div>
+    </header> -->
+
+    <main>
+      <!-- <section class="offers">
+        <div class="offers-content-container">
+          <h2 class="visually-hidden">Offers</h2>
+          <ul class="offers-menu">
+            <li class="offers-menu-item">
+              <a href="#" class="offers-menu-link">Горящие туры</a>
+            </li>
+            <li class="offers-menu-item">
+              <a href="#" class="offers-menu-link">Популярные туры</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="swiper-offers mySwiper">
+          <div class="swiper-wrapper-offers">
+            <div class="swiper-slide-offers">Slide 1</div>
+            <div class="swiper-slide-offers">Slide 2</div>
+            <div class="swiper-slide-offers">Slide 3</div>
+            <div class="swiper-slide-offers">Slide 4</div>
+            <div class="swiper-slide-offers">Slide 5</div>
+            <div class="swiper-slide-offers">Slide 6</div>
+            <div class="swiper-slide-offers">Slide 7</div>
+            <div class="swiper-slide-offers">Slide 8</div>
+            <div class="swiper-slide-offers">Slide 9</div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+
+        <ul class="offers-list">
+          <li class="offers-item">
+            <img src="./images/swimming.png" alt="Reef" class="offers-img" />
+            <div class="offers-info">
+              <div class="offers-border">
+                <h3 class="offers-title">8 марта в Cyrene Sharm hotel</h3>
+                <time datetime="" class="offers-date"
+                  >(12.03.2018 — 19.03.2018)</time
+                >
+              </div>
+              <p class="offers-text">
+                Перелёт, питание по системе all inclusive, трансфер
+              </p>
+              <div class="offers-buy">
+                <p class="offers-price">1 259 грн</p>
+                <p class="offers-conditions">/за 1 человека</p>
+                <a href="#" class="offers-link"
+                  ><svg class="icon-offers">
+                    <use href="./images/symbol-defs.svg#icon-arrow"></use></svg
+                ></a>
+              </div>
+            </div>
+          </li>
+
+          <li class="offers-item">
+            <img src="./images/sunbathe.png" alt="Beach" class="offers-img" />
+            <div class="offers-info">
+              <div class="offers-border">
+                <h3 class="offers-title">8 марта в Cyrene Sharm hotel</h3>
+                <time datetime="" class="offers-date"
+                  >(12.03.2018 — 19.03.2018)</time
+                >
+              </div>
+              <p class="offers-text">
+                Перелёт, питание по системе all inclusive, трансфер
+              </p>
+              <div class="offers-buy">
+                <p class="offers-price">1 259 грн</p>
+                <p class="offers-conditions">/за 1 человека</p>
+                <a href="#" class="offers-link link"
+                  ><svg class="icon-offers">
+                    <use href="./images/symbol-defs.svg#icon-arrow"></use></svg
+                ></a>
+              </div>
+            </div>
+          </li>
+
+          <li class="offers-item">
+            <img src="./images/sunbathe.png" alt="Beach" class="offers-img" />
+            <div class="offers-info">
+              <div class="offers-border">
+                <h3 class="offers-title">8 марта в Cyrene Sharm hotel</h3>
+                <time datetime="" class="offers-date"
+                  >(12.03.2018 — 19.03.2018)</time
+                >
+              </div>
+              <p class="offers-text">
+                Перелёт, питание по системе all inclusive, трансфер
+              </p>
+              <div class="offers-buy">
+                <p class="offers-price">1 259 грн</p>
+                <p class="offers-conditions">/за 1 человека</p>
+                <a href="#" class="offers-link link"
+                  ><svg class="icon-offers">
+                    <use href="./images/symbol-defs.svg#icon-arrow"></use></svg
+                ></a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section> -->
+      <!-- 
+      <section class="advantages">
+        <div class="container advantages-container">
+          <h2 class="advantages-title">Наши преимущества</h2>
+          <div class="advantages-response">
+            <img src="./images/diving.png" alt="Diver" class="advantages-img" />
+            <div class="box">
+           
+              <div class="swiper-scroll">
+                <div class="swiper-wrapper">
+                
+                  <div class="swiper-slide">
+                    <p class="advantages-text">
+                      Очень долго подбирали разные варианты для того, чтобы
+                      отпраздновать свой юбилейный День рождения в путешествии и
+                      не могли определиться... Решили обратиться за помощью в
+                      турагенство. Гульнара, выслушав все пожелания, предложила
+                      отдых в Турции, отель Justiniano Club Park Conti 5* в
+                      Окурджалар возле Аланьи. Мы очень благодарны ей за
+                      предложенный вариант!!!! Отдых получился отличный! Отель с
+                      большой ухоженной территорией, внимательный обслуживающий
+                      персонал. Отличный номер с видом на море.
+                    </p>
+                  </div>
+                  <div class="swiper-slide">
+                    <p class="advantages-text">
+                      Очень долго подбирали разные варианты для того, чтобы
+                      отпраздновать свой юбилейный День рождения в путешествии и
+                      не могли определиться... Решили обратиться за помощью в
+                      турагенство. Гульнара, выслушав все пожелания, предложила
+                      отдых в Турции, отель Justiniano Club Park Conti 5* в
+                      Окурджалар возле Аланьи. Мы очень благодарны ей за
+                      предложенный вариант!!!! Отдых получился отличный! Отель с
+                      большой ухоженной территорией, внимательный обслуживающий
+                      персонал. Отличный номер с видом на море.
+                    </p>
+                  </div>
+                  <div class="swiper-slide">
+                    <p class="advantages-text">
+                      Очень долго подбирали разные варианты для того, чтобы
+                      отпраздновать свой юбилейный День рождения в путешествии и
+                      не могли определиться... Решили обратиться за помощью в
+                      турагенство. Гульнара, выслушав все пожелания, предложила
+                      отдых в Турции, отель Justiniano Club Park Conti 5* в
+                      Окурджалар возле Аланьи. Мы очень благодарны ей за
+                      предложенный вариант!!!! Отдых получился отличный! Отель с
+                      большой ухоженной территорией, внимательный обслуживающий
+                      персонал. Отличный номер с видом на море.
+                    </p>
+                  </div>
+                </div>
+                <div class="swiper-scrollbar"></div>
+              </div>
+
+              
+            </div>
+          </div>
+        </div>
+      </section> -->
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-container">
+        <div class="footer-top">
+          <a href="" class="footer-logo link">
+            <img src="./images/logo-footer.png" alt="Logo" />
+          </a>
+          <p class="footer-text">
+            Кураж тур агенство,которое предоставляет услуги по поиску,
+            оформлению и подбору туров для вас и ваших родных.
+          </p>
+          <div class="footer-link">
+            <p class="footer-link-text">Создание сайта —</p>
+            <a href="" class="footer-link-img link"
+              ><img src="./images/link-footer.png" alt="Company"
+            /></a>
+          </div>
+        </div>
+        <div class="footer-info">
+          <div class="container-navigation">
+            <h4 class="footer-subtitle">Навигация</h4>
+            <nav class="footer-navigation">
+              <ul class="footer-menu list">
+                <li class="footer-menu-item">
+                  <a href="" class="footer-menu-link link">Главная</a>
+                </li>
+                <li class="footer-menu-item">
+                  <a href="" class="footer-menu-link link">О компании</a>
+                </li>
+                <li class="footer-menu-item">
+                  <a href="" class="footer-menu-link link">Туры</a>
+                </li>
+                <li class="footer-menu-item">
+                  <a href="" class="footer-menu-link link">Контакты</a>
+                </li>
+                <li class="footer-menu-item">
+                  <a href="" class="footer-menu-link link">Услуги</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="container-support">
+            <h4 class="footer-subtitle">Поддержка</h4>
+            <ul class="footer-support-list list">
+              <li class="footer-support-item">
+                <a href="" class="footer-support-link link">FAQ</a>
+              </li>
+              <li class="footer-support-item">
+                <a href="" class="footer-support-link link">Блог</a>
+              </li>
+              <li class="footer-support-item">
+                <a href="" class="footer-support-link link">Обратная связь</a>
+              </li>
+            </ul>
+          </div>
+          <div class="container-contacts">
+            <h4 class="footer-subtitle">Контакты</h4>
+            <address class="footer-address">
+              <ul class="footer-address-list list">
+                <li class="footer-address-item">
+                  <svg class="footer-icon-address">
+                    <use href="./images/symbol-defs.svg#icon-location"></use>
+                  </svg>
+                  <a href="" target="_blank" class="footer-address-link link"
+                    >г. Харьков, ул. Лермонтовская 10а</a
+                  >
+                </li>
+                <li class="footer-address-item">
+                  <svg class="footer-icon-address">
+                    <use href="./images/symbol-defs.svg#icon-phone"></use>
+                  </svg>
+                  <a href="tel:+380999908100" class="footer-address-link link"
+                    >+38 (099) 990-81-00</a
+                  >
+                </li>
+              </ul>
+            </address>
+            <ul class="footer-socials-list list">
+              <li class="footer-socials-item">
+                <a
+                  href=""
+                  aria-label="facebook"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="footer-socials-link link"
+                  ><svg class="icon-socials">
+                    <use
+                      href="./images/symbol-defs.svg#icon-facebook"
+                    ></use></svg
+                ></a>
+              </li>
+              <li class="footer-socials-item">
+                <a
+                  href=""
+                  aria-label="instagram"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="footer-socials-link link"
+                  ><svg class="icon-socials">
+                    <use
+                      href="./images/symbol-defs.svg#icon-instagram"
+                    ></use></svg
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+    <script src="./js/header-slider.js"></script>
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> -->
+    <script src="./js/offers-slider.js"></script>
+    <script src="./js/advantages-scroll.js"></script>
+  </body>
+</html>
